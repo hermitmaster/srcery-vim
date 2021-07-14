@@ -45,7 +45,6 @@ M.load_syntax = function(palette)
     return {
         Normal = {
             fg = palette.bright_white,
-            bg = palette.none,
         },
         Pmenu = {
             fg = palette.bright_white,
@@ -104,7 +103,6 @@ M.load_syntax = function(palette)
         },
         MatchParen = {
             fg = palette.bright_magenta,
-            bg = palette.none,
             style = 'bold',
         },
         Question = {
@@ -113,12 +111,10 @@ M.load_syntax = function(palette)
         },
         ModeMsg = {
             fg = palette.yellow,
-            bg = palette.none,
             style = 'bold',
         },
         MoreMsg = {
             fg = palette.yellow,
-            bg = palette.none,
             style = 'bold',
         },
         ErrorMsg = {
@@ -128,7 +124,6 @@ M.load_syntax = function(palette)
         },
         WarningMsg = {
             fg = palette.red,
-            bg = palette.none,
             style = 'bold',
         },
         VertSplit = {
@@ -136,7 +131,6 @@ M.load_syntax = function(palette)
         },
         LineNr = {
             fg = palette.bright_black,
-            bg = palette.none
         },
         SignColumn = {
             fg = palette.none,
@@ -195,27 +189,21 @@ M.load_syntax = function(palette)
         },
         Directory = {
             fg = palette.green,
-            bg = palette.none,
         },
         DiffAdd = {
-            fg = palette.diff_add_fg,
-            bg = palette.diff_add_bg,
+            fg = palette.green,
         },
         DiffDelete = {
             fg = palette.red,
-            bg = palette.none,
         },
         DiffChange = {
             fg = palette.cyan,
-            bg = palette.none,
         },
         DiffText = {
             fg = palette.yellow,
-            bg = palette.none,
         },
         diffAdded = {
             fg = palette.green,
-            bg = palette.none,
         },
         diffRemoved = {
             fg = palette.red,
@@ -395,27 +383,6 @@ end
 
 M.load_plugin_syntax = function(palette)
     return {
-        TSFunction = {
-            fg = palette.green,
-        },
-        TSMethod = {
-            fg = palette.green,
-        },
-        TSKeywordFunction = {
-            fg = palette.red,
-        },
-        TSProperty = {
-            fg = palette.white,
-        },
-        TSType = {
-            fg = palette.cyan,
-        },
-        TSPunctBracket = {
-            fg = palette.white,
-        },
-        dbui_tables = {
-            fg = palette.white,
-        },
         LspDiagnosticsSignError = {
             fg = palette.red,
         },
