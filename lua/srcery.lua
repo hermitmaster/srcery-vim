@@ -382,46 +382,6 @@ end
 
 M.load_plugin_syntax = function(palette)
   return {
-    LspDiagnosticsSignError = {
-      fg = palette.red,
-    },
-    LspDiagnosticsSignWarning = {
-      fg = palette.yellow,
-    },
-    LspDiagnosticsSignInformation = {
-      fg = palette.white,
-    },
-    LspDiagnosticsSignHint = {
-      fg = palette.cyan,
-    },
-    LspDiagnosticsVirtualTextError = {
-      fg = palette.red,
-    },
-    LspDiagnosticsVirtualTextWarning = {
-      fg = palette.yellow,
-    },
-    LspDiagnosticsVirtualTextInformation = {
-      fg = palette.white,
-    },
-    LspDiagnosticsVirtualTextHint = {
-      fg = palette.cyan,
-    },
-    LspDiagnosticsUnderlineError = {
-      style = 'underline',
-      sp = palette.bright_red,
-    },
-    LspDiagnosticsUnderlineWarning = {
-      style = 'underline',
-      sp = palette.bright_yellow,
-    },
-    LspDiagnosticsUnderlineInformation = {
-      style = 'underline',
-      sp = palette.bright_green,
-    },
-    LspDiagnosticsUnderlineHint = {
-      style = 'underline',
-      sp = palette.bright_cyan,
-    },
     CursorWord0 = {
       bg = palette.white,
       fg = palette.black,
@@ -430,16 +390,8 @@ M.load_plugin_syntax = function(palette)
       bg = palette.white,
       fg = palette.black,
     },
-    NvimTreeFolderName = {
-      fg = palette.white,
-    },
     NvimTreeRootFolder = {
       fg = palette.red,
-    },
-    NvimTreeSpecialFile = {
-      fg = palette.white,
-      bg = palette.none,
-      style = 'NONE',
     },
   }
 end
