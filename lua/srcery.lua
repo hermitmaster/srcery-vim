@@ -220,18 +220,6 @@ M.load_syntax = function(palette)
         Constant = {
             fg = palette.bright_magenta,
         },
-        Number = {
-            fg = palette.bright_magenta,
-        },
-        Float = {
-            fg = palette.bright_magenta,
-        },
-        Boolean = {
-            fg = palette.bright_magenta,
-        },
-        Character = {
-            fg = palette.bright_magenta,
-        },
         String = {
             fg = palette.bright_green,
         },
@@ -251,34 +239,10 @@ M.load_syntax = function(palette)
         Identifier = {
             fg = palette.cyan,
         },
-        Function = {
-            fg = palette.yellow,
-        },
         Statement = {
             fg = palette.red,
         },
-        Operator = {
-            fg = palette.red,
-        },
-        Label = {
-            fg = palette.red,
-        },
-        Keyword = {
-            fg = palette.red,
-        },
         PreProc = {
-            fg = palette.cyan,
-        },
-        Include = {
-            fg = palette.cyan,
-        },
-        Define = {
-            fg = palette.cyan,
-        },
-        Macro = {
-            fg = palette.orange,
-        },
-        PreCondit = {
             fg = palette.cyan,
         },
         Special = {
