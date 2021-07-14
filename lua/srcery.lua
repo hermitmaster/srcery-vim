@@ -47,10 +47,6 @@ M.load_syntax = function(palette)
             fg = palette.bright_white,
             bg = palette.none,
         },
-        NormalFloat = {
-            fg = palette.none,
-            bg = palette.base1,
-        },
         Pmenu = {
             fg = palette.bright_white,
             bg = palette.xgray2,
@@ -58,10 +54,6 @@ M.load_syntax = function(palette)
         PmenuSel = {
             fg = palette.bright_white,
             bg = palette.blue,
-        },
-        PmenuSelBold = {
-            fg = palette.base4,
-            bg = palette.orange,
         },
         PmenuThumb = {
             fg = palette.none,
@@ -371,7 +363,7 @@ M.load_syntax = function(palette)
             bg = palette.xgray2,
         },
         Whitespace = {
-            fg = palette.base3,
+            fg = palette.xgray2,
         },
         WildMenu = {
             fg = palette.blue,
@@ -379,14 +371,14 @@ M.load_syntax = function(palette)
             style = 'bold',
         },
         QuickFixLine = {
-            fg = palette.purple,
+            fg = palette.magenta,
             style = 'bold',
         },
         Debug = {
             fg = palette.orange,
         },
         debugBreakpoint = {
-            fg = palette.base2,
+            fg = palette.xgray1,
             bg = palette.red,
         },
         Conditional = {
