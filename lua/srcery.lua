@@ -174,7 +174,7 @@ M.load_syntax = function(palette)
         SpellCap = {
             fg = palette.green,
             bg = palette.none,
-            style = 'bold, italic',
+            style = 'undercurl',
         },
         SpellRare = {
             fg = palette.none,
