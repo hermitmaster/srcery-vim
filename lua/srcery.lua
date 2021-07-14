@@ -486,9 +486,8 @@ M.setup = function(palette)
     end
     vim.o.background = 'dark'
     vim.o.termguicolors = true
-    local used_palette = palette or M.classic
-    vim.g.colors_name = used_palette.name
-    local syntax = M.load_syntax(used_palette)
+    vim.g.colors_name = 'srcery'
+    local syntax = M.load_syntax(M.classic)
     for group, colors in pairs(syntax) do
         M.highlight(group, colors)
     end
@@ -496,7 +495,7 @@ M.setup = function(palette)
     async_load_plugin = vim.loop.new_async(
         vim.schedule_wrap(
             function()
-                local plugin_syntax = M.load_plugin_syntax(used_palette)
+                local plugin_syntax = M.load_plugin_syntax(M.classic)
                 for group, colors in pairs(plugin_syntax) do
                     M.highlight(group, colors)
                 end
