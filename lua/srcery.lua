@@ -96,7 +96,7 @@ M.load_syntax = function(palette)
         IncSearch = {
             fg = palette.none,
             bg = palette.xgray5,
-            style = 'bold, underline',
+            style = 'bold',
         },
         CursorLineNr = {
             fg = palette.yellow,
