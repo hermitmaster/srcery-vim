@@ -311,7 +311,7 @@ M.load_syntax = function(palette)
         Todo = {
             fg = palette.bright_white,
             bg = palette.bright_black,
-            style = 'bold, italic',
+            style = 'italic',
         },
         Comment = {
             fg = palette.bright_black,
